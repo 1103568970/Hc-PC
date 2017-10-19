@@ -1,0 +1,233 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+ul,ol li{
+    list-style: none;
+}
+.cf:after{
+    content: "";
+    display: table;
+    clear: both;
+    /*清除浮动  class=“cf” */
+}
+img{
+    vertical-align: top;
+    /*去除图片底部空白处 */
+}
+.sec-nav{
+    background-color: #F2F2F2;
+}
+a:focus, a:hover {
+    color: #23527c;
+    /* text-decoration: none; */
+}
+
+nav>a{
+    color: #bcbcbb ;
+    margin-left: 10px;
+}
+
+.coll-a{
+    display: inline-block;
+    margin-left: 750px;
+    text-align: center;
+    line-height: 100%;
+}
+.coll-a>a{
+    margin-left: 10px;
+}
+.sec-seek{
+    margin-top: 20px;
+}
+.sec-list{
+    margin-top: 20px;
+    position: relative;
+}
+
+.logo{
+    color: red;
+    font-size: 32px;
+
+}
+.seek-goods{
+    display: inline-flex;
+    position: relative;
+}
+.seek-goods input{
+    width: 500px;
+    height: 32px;
+    position: absolute;
+    left: 150px;
+    top: -26px;
+    border:2px solid #296ECC;
+}
+.seek-txt{
+    text-align: center;
+    width: 90px;
+    height: 32px;
+    line-height: 32px;
+    position: absolute;
+    left: 650px;
+    top: -26px;
+    font-size: 18px;
+
+    background: #296ECC;
+    color: #ffffff;
+}
+.seek-goods-img{
+    position: absolute;
+    left: 755px;
+    top: -50px;
+}
+.src-list-ul>li>a{
+    display: block;
+    padding: 0 10px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #333;
+    text-decoration: none;
+}
+.src-list-ul>li:hover a{
+
+    color: red;
+
+}
+.sec-bac-img-animation{
+    height: 400px;
+    width: 1920px;
+    overflow: hidden;
+    position: absolute;
+
+
+}
+.key-left{
+    position: absolute;
+    left: 17px;
+    top: 47%;
+}
+.key-right{
+    position: absolute;
+    right:  0;
+    top: 47%;
+}
+.posit{
+    float: left;
+    width: 296px;
+    border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #ebebeb;
+    background-color: #fff;
+    height: 380px;
+    overflow: hidden;
+    cursor:pointer;
+}
+.posit img{
+    margin-top: 20px;
+    z-index: 999;
+}
+.news{
+    height: 50px;
+    width: 50px;
+    background: red;
+    color: #fff;
+    font-size: 16px;
+    padding: 7px;
+    position: absolute;
+    left:15px;
+    top: 20px;
+}
+.xpkw-txt{
+    margin: 15px auto 0;
+    line-height: 18px;
+    height: 54px;
+    overflow: hidden;
+    font-size: 12px;
+    width: 240px;
+    color: #000;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.xpkw-price{
+    font-size: 21px;
+    font-weight: 200;
+    text-decoration: none;
+    color: #e63e33;
+}
+.xpkw-btn{
+    width: 83px;
+    height: 22px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 22px;
+    font-size: 12px;
+    position: absolute;
+    right: 30px;
+    bottom: 18px;
+}
+.pledge{
+    display: flex;
+    cursor:pointer;
+    justify-content:space-between
+}
+.main-last{
+    background: #E9E9E9;
+}
+.main-last li{
+    margin-top: 10px;
+}
+.main-last-li{
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-div{
+    margin: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+}
+.brand{
+    display: flex;
+    justify-content: center 	;
+}
+.fall{
+    margin: 40px 20px;
+}
+a:hover{
+    text-decoration: none;
+}
+.pledge span{
+    font-size: 22px;
+}
+#ul{
+    list-style: none;
+    position: relative;
+}
+#ul li{
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.src-list-ul>li>a{
+
+}
+
+
+

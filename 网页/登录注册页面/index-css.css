@@ -1,0 +1,77 @@
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.login li a {
+
+    width: 83px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.box{
+    width: 622px;
+    margin: 300px auto 0;
+}
+.in{
+    width: 467px;
+    height: 40px;
+    border:3px solid #FF4200;
+    border-right:none;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.pu{
+    width: 122px;
+    height: 46px;
+    background-color: #FF4200;
+    border:3px solid #FF4200;
+    display: inline-block;
+    font-size: 18px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: 25px;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 18px;
+
+}
+li a{
+   font-size: 22px;
+}
+
+
+.seek{
+    margin-top: -100px;
+    position: relative;
+}
+.index_input{
+    margin-top: -500px;
+
+    position: absolute;
+    left: 25%;
+    top: 50%;
+
+}
+.index-logo{
+    font-size: 32px;
+    text-align: center;
+    line-height: 56px;
+    margin: 15px;
+    margin-left: -130px;
+}
+.serve summary{
+    background-color: #FF4200;
+}
+.serve p{
+    color: blue;
+}
+

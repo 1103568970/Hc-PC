@@ -1,0 +1,276 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=0.95, user-scalable=no" />
+
+<title>科技商城登录和注册</title>
+
+<link rel="stylesheet" type="text/css" href="template/ue-content/templates/images/ue_grid.css" />
+
+<link rel="stylesheet" type="text/css" href="template/ue-content/templates/images/style.css" />
+
+<link rel="stylesheet" type="text/css" href="template/ue-content/templates/css/style.css" />
+
+<script src="http://www.jq22.com/jquery/1.7.2/jquery.min.js"></script>
+
+<script language="javascript" src="script/jquery.easing.min.js"></script>
+
+<script language="javascript" src="script/custom.js"></script>
+  <link rel="stylesheet" href="index-css.css">
+
+
+
+</head>
+
+<body style="padding-top:90px">
+
+<div id="header">
+
+  <div class="common"> 
+
+    <div class="login fr">
+
+      <div class="loginmenu"><a title="登录或注册"></a></div>
+
+      <ul>
+        <li><a href="#">我的收藏</a></li>
+        <li><a href="#">我的订单</a></li>
+        <li><a href="../购物车.html">我的购物车</a></li>
+
+        <li class="openlogin"><a href="#" onclick="return false;">登录</a></li>
+
+        <li class="reg"><a href="../注册页面.html" >注册</a></li>
+        <li class="serve"><a href=""><details>
+          <summary>客户服务</summary>
+          <p>物流查询</p>
+          <p>人工服务</p>
+          <p>投诉与建议</p>
+        </details>
+        </a></li>
+
+      </ul>
+
+    </div>   
+
+    <div class="clear"></div>
+
+  </div>
+
+</div>
+
+<div class="clear"></div>
+
+<div class="loginmask"></div>
+
+<div id="loginalert">
+
+  <div class="pd20 loginpd">
+
+    <h3><i class="closealert fr"></i>
+
+      <div class="clear"></div>
+
+    </h3>
+
+    <div class="loginwrap">
+
+      <div class="loginh">
+
+        <div class="fl">会员登录</div>
+
+        <div class="fr">还没有账号<a id="sigup_now" href="#" onclick="return false;">立即注册</a></div>
+
+        <div class="clear"></div>
+
+      </div>
+
+      <h3><span>邮箱登录</span><span class="login_warning">用户名或密码错误</span>
+
+        <div class="clear"></div>
+
+      </h3>
+
+      <div class="clear"></div>
+
+      <form action="" method="post" id="login_form">
+
+        <div class="logininput">
+
+          <input type="text" name="username" class="loginusername" value="邮箱/用户名" />
+
+          <input type="text" class="loginuserpasswordt" value="密码" />
+
+          <input type="password" name="password" class="loginuserpasswordp" style="display:none" />
+
+        </div>
+
+        <div class="loginbtn">
+
+          <div class="loginsubmit fl">
+
+            <input type="submit" value="登录" />
+
+            <div class="loginsubmiting">
+
+              <div class="loginsubmiting_inner"></div>
+
+            </div>
+
+          </div>
+
+          <div class="logcheckbox fl">
+
+            <input id="bcdl" type="checkbox" checked="true" />
+
+            保持登录</div>
+
+          <div class="fr"><a href="#">忘记密码?</a></div>
+
+          <div class="clear"></div>
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  <div class="thirdlogin">
+
+    <div class="pd50">
+
+      <h4>用第三方帐号直接登录</h4>
+
+      <ul>
+
+        <li id="sinal"><a href="#">微博账号登录</a></li>
+
+        <li id="qql"><a href="#">QQ账号登录</a></li>
+
+        <div class="clear"></div>
+
+      </ul>
+
+      <div class="clear"></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div id="reg_setp">
+
+  <div class="back_setp">返回</div>
+
+  <div class="blogo"></div>
+
+  <div id="setp_quicklogin">
+
+    <h3>您可以选择以下第三方帐号直接登录，一分钟完成注册</h3>
+
+    <ul class="quicklogin_socical">
+
+      <li class="quicklogin_socical_weibo"><a href="#">微博帐号注册</a></li>
+
+      <li class="quicklogin_socical_qq"><a href="#">QQ帐号注册</a></li>
+
+    </ul>
+
+  </div>
+
+</div>
+
+<div class="seek">
+
+  <video  autoplay  loop  height="100%" width="100%" >
+    <source src="../video/739910140.mp4" >
+  </video>
+  <div class="index_input">
+    <div class="box">
+      <div class="index-logo">
+        <img src="../img/six-img.png" alt="">
+        您想要的黑科技，这统统都有!
+      </div>
+      <input type="text" id="in" class="in" placeholder="请输入商品名">
+      <input type="button" value="搜索" id="pu" class="pu">
+      <ul id="ul"></ul>
+      <div>
+        <section class="main-last">
+          <article class="container">
+            <div class="brand" style="margin-top: 500px;margin-left:160px ">©HEIKEJIBABA MUX, powered by heikejibaba THX <a href="">科技商城</a></div>
+          </article>
+        </section>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+
+</html>
+
+<script>
+  $(function(){
+    var inp= $("#in");
+    var pu = $("#pu");
+    var uls = $("#ul");
+
+    inp.keyup(function(){
+
+      var txt = inp.val();
+      $.ajax({
+        type:"get",
+        url:"https://suggest.taobao.com/sug?code=utf-8&q="+txt,
+        dataType:"jsonp",
+        success:function(data){
+          uls.empty();
+          var re = data.result;
+          $.each(re,function(i,v){
+            var lis = $("<li></li>");
+            var lk = $('<a href="https://s.taobao.com/search?q='+v[0]+'"></a>');
+            lk.html(v[0]);
+            lis.append(lk);
+            uls.append(lis);
+          })
+
+        }
+      })
+    });
+
+    $(document).click(function(){
+      uls.empty()
+    });
+    inp.click(function(e){
+      e.stopPropagation();
+      inp.keyup()
+    })
+    pu.click(function(){
+      var txt = inp.val();
+      window.location.href = "https://s.taobao.com/search?q="+txt;
+    });
+    //回车键事件
+    document.onkeydown = function(e){
+      var ev = document.all ? window.event : e;
+      if(ev.keyCode==13) {
+        pu.click()
+      }
+    };
+
+  })
+</script>
+<script>
+  window.onload=function(){
+
+  }
+</script>
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="sign.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+
+</head>
+<body>
+<main >
+    <section >
+
+        <article class="container" style="margin-top: 20px">
+            <div class="sign">
+                <div>
+                    <img src="img/six-img.png" alt="">
+                    <span>注册科技商城账号</span>
+                </div>
+                <div>
+                    我已注册，现在就 <a href="">登录</a>
+                </div>
+            </div>
+            <hr>
+            <div class="sign-two">
+                <div>
+                    <form action="">
+                        <div><span>用户名</span>  <input type="text" placeholder="请设置用户名" required pattern="\d{11}"
+                             oninvalid="setCustomValidity('不能少于11位数')" oninput="setCustomValidity('')" /> </div>
+                        <div><span>手机号</span>  <input type="text" placeholder="可用于登录和找回密码" required></div>
+                        <div> <span>验证码</span>  <input type="text" placeholder="请输入验证码" required></div>
+                        <div><span>密码</span>    <input type="password" placeholder="请设置登录密码" style="margin-left: 40px;" required></div>
+                        <div style="position:relative;margin-left: 77px;width: 402px;"><input type="checkbox" style="width: 20px;height: 15px;margin: 0;"> <span style="font-size:14px;position: absolute;top: -2px;">阅读并接受 <a href="">《DF商城用户协议》</a>及 <a href="">《DF用户隐私保护协议》</a></span> </div>
+                        <div><input type="submit" value="注册"></div>
+                    </form>
+                </div>
+                <div>
+                    <div style=" font-size: 20px;"><img src="img/phone.png" alt="">手机快速注册</div>
+                    <div>请使用中国大陆手机号，编辑短信： <br> <mark>6-14位字符（支持数字/字母/符号）</mark></div>
+                    <div>作为登录密码，发送至：<br> <mark>1069 0691 036590</mark> <br>即可注册成功，手机号即为登录帐号。
+                        </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+
+</main>
+
+</body>
+</html>
